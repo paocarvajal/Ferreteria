@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300">
+  <!-- Fondo Blanco -->
+  <rect width="800" height="300" fill="#FFFFFF" />
+
+  <!-- ========================================================================
+       REGLA: LA CASITA CON LA H (Silueta idéntica a la imagen pedida)
+       ======================================================================== -->
+  <g transform="translate(60, 50)" fill="#4A4F54"> <!-- Gris Acero Similar a la imagen -->
+    
+    <!-- LADO IZQUIERDO DE LA H / CASA -->
+    <!-- Tejadillo y chimenea pequeña izq -->
+    <polygon points="0,50 30,30 30,40 50,25 50,0 65,0 65,15" />
+    <polygon points="10,65 10,180 35,180 35,100 65,100 65,180 90,180 90,45" />
+
+    <!-- LADO DERECHO DE LA H / CASA -->
+    <!-- Techo grande derecho y poste derecho -->
+    <polygon points="90,45 100,55 100,180 125,180 125,100 155,100 155,180 180,180 180,65 200,80 200,60 160,25 160,10 120,10 120,-10 90,15" />
+    
+    <!-- Centro del techo para completar la intersección -->
+    <polygon points="50,25 90,-5 130,25 115,40 90,20 65,40" />
+
+  </g>
+
+  <!-- ========================================================================
+       TEXTO PRINCIPAL: HerraMax (Con la tipografía en la misma proporción)
+       ======================================================================== -->
+  <g transform="translate(280, 160)">
+    <!-- Herra en Gris Acero -->
+    <text x="0" y="0" 
+          font-family="'Arial Black', 'Impact', sans-serif" 
+          font-size="90" 
+          font-weight="900" 
+          fill="#4A4F54" 
+          letter-spacing="-2">Herra</text>
+    
+    <!-- Max en Naranja Truper -->
+    <!-- Start X aproximado para cuadrar justo después de Herra -->
+    <text x="295" y="0" 
+          font-family="'Arial Black', 'Impact', sans-serif" 
+          font-size="90" 
+          font-weight="900" 
+          fill="#FA7101" 
+          letter-spacing="-1">Max</text>
+  </g>
+
+  <!-- ========================================================================
+       TEXTO SECUNDARIO: FERRETERÍA MÉXICO
+       ======================================================================== -->
+  <g transform="translate(285, 205)">
+    <text x="0" y="0" 
+          font-family="'Montserrat', 'Arial', sans-serif" 
+          font-size="28" 
+          font-weight="700" 
+          fill="#4A4F54" 
+          letter-spacing="2.5">FERRETERÍA MÉXICO</text>
+  </g>
+
+</svg>
