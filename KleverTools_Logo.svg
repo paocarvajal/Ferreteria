@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="500" viewBox="0 0 1200 500" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Definición proporción base -->
+  <!-- Altura texto base = 100 -->
+  <!-- Altura icono = 161.8 (100 x 1.618) -->
+
+  <!-- ÍCONO CASA -->
+  <g transform="translate(50,170)">
+    
+    <!-- Altura total icono = 161.8 -->
+    <!-- Ancho base / altura = 1.618 -->
+    
+    <!-- Techo -->
+    <polygon points="0,100 130,-20 260,100" 
+             fill="none" stroke="#4A4A4A" stroke-width="14"/>
+    
+    <!-- Paredes tipo H -->
+    <rect x="40" y="100" width="40" height="120" 
+          fill="#4A4A4A"/>
+    
+    <rect x="180" y="100" width="40" height="120" 
+          fill="#4A4A4A"/>
+    
+    <rect x="40" y="150" width="180" height="30" 
+          fill="#4A4A4A"/>
+
+  </g>
+
+  <!-- TEXTO -->
+  <g transform="translate(360,300)">
+    
+    <!-- Klever -->
+    <text x="0" y="0"
+          font-family="Montserrat, Arial, sans-serif"
+          font-size="100"
+          font-weight="600"
+          fill="#4A4A4A"
+          letter-spacing="1">
+      Klever
+    </text>
+
+    <!-- Tools -->
+    <text x="360" y="0"
+          font-family="Montserrat, Arial, sans-serif"
+          font-size="100"
+          font-weight="800"
+          fill="#FF6A00">
+      Tools
+    </text>
+
+    <!-- Tagline -->
+    <text x="0" y="60"
+          font-family="Montserrat, Arial, sans-serif"
+          font-size="36"
+          font-weight="500"
+          fill="#4A4A4A"
+          letter-spacing="4">
+      FERRETERÍA MÉXICO
+    </text>
+
+  </g>
+
+</svg>
